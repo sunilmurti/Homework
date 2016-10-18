@@ -41,19 +41,19 @@ Marked by the curly brackets.
 
 ```1>=0```- True
 
-```1 >= 1``` - True 
+```1 >= 1``` - True
 
-```1>1``` - False 
+```1>1``` - False
 
-```1==1``` - True 
+```1==1``` - True
 
-```1 == 1.0``` - True 
+```1 == 1.0``` - True
 
-```'Spencer' == “Spencer”``` - True 
+```'Spencer' == “Spencer”``` - True
 
-```2**3 > 3**2``` - False 
+```2**3 > 3**2``` - False
 
-```1 >= 0 or 1 <= 2``` - True 
+```1 >= 0 or 1 <= 2``` - True
 
 ```1 >= 0 and 1 <= 2``` - True
 
