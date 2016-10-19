@@ -258,7 +258,7 @@ of three: 3, 6, etc.</h5>
 This code labels a list as "old_list" then creates a second list called new_list. new_list is defined as being composed of items from  old_list in which character "0" of each individual str "x" in the list is added if it is not 6. 
 
 
-<h5> 20.Consider the Python object</h5>
+<h5> 20. Consider the Python object</h5>
     z = {1: 'one', 2: 'two', 3: 'three'}
     
 ```(a) What kind of object is z? What is its length?``` Dict or Dictionary
