@@ -246,4 +246,25 @@ of three: 3, 6, etc.</h5>
       pocket_change([1, 2, 3, 4]) #RUN THIS COMMAND
       The total amount is $ 1.41
         
+<h5>18. Challenging. Write a function notsix() that takes a list of integers and returns a (shorter) list of only those that do not begin with a 6. Test it on the list [1234, 6783, 6, 4321, 9876]. Hints: You can create a blank list with x = []. You can append item to it with x.append(item).</h5>
+
+
+
+<h5> 19. Challenging. Explain what this code does:</h5>
+
+    old_list = [1234, 6783, 6, 4321, 9876]
+    new_list = [x for x in old_list if str(x)[0] != "6"]
+    
+This code labels a list as "old_list" then creates a second list called new_list. new_list is defined as being composed of items from  old_list in which character "0" of each individual str "x" in the list is added if it is not 6. 
+
+
+<h5> 20.Consider the Python object
+    z = {1: 'one', 2: 'two', 3: 'three'}
+```(a) What kind of object is z? What is its length?```
+```(b) Which components are keys? Which are values?```
+```(c) How would I get the value associated with the key 2?```
+```(d) Use Spyder’s help facilities to figure out what z.keys() does. Ditto z.values(). Try them to verify.```
+```(e) What does list(z.keys()) do?```
+```(f) What does list(z.values()) do?```
+```(g) What does list(z) do?```
     
