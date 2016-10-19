@@ -248,7 +248,11 @@ of three: 3, 6, etc.</h5>
         
 <h5>18. Challenging. Write a function notsix() that takes a list of integers and returns a (shorter) list of only those that do not begin with a 6. Test it on the list [1234, 6783, 6, 4321, 9876]. Hints: You can create a blank list with x = []. You can append item to it with x.append(item).</h5>
 
+    def notsix(cleanlist):
+    return [x for x in cleanlist if str(x)[0] != "6"]
 
+    notsix([1234, 6783, 6,4321, 9876])
+    [1234, 4321, 9876]
 
 <h5> 19. Challenging. Explain what this code does:</h5>
 
