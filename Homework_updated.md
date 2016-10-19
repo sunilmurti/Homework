@@ -261,11 +261,9 @@ This code labels a list as "old_list" then creates a second list called new_list
 <h5> 20.Consider the Python object
     z = {1: 'one', 2: 'two', 3: 'three'}
     
-```(a) What kind of object is z? What is its length?```
-Dict or Dictionary
+```(a) What kind of object is z? What is its length?``` Dict or Dictionary
 
-```(b) Which components are keys? Which are values?```
-The first component of each set is the key and the second is the value. Keys: (1, 2, 3). Values: (one, two, three)
+```(b) Which components are keys? Which are values?``` Keys: (1, 2, 3). Values: (one, two, three)
 
 ```(c) How would I get the value associated with the key 2?```
 
