@@ -191,7 +191,7 @@ Slicing allows us to access or extract specific items from a list or string.
     Liuren
 
 <h5>15. Use Spyder’s help to find out what the range function does. How would you describe
-range(3,12,2)? Verify by converting to a list with list(range(3,12,2)).
+range(3,12,2)? Verify by converting to a list with list(range(3,12,2)).</h5>
 
 The first number sets the lower boundary (inclusive) and the second number sets
 the upper boundary (exclusive) of the range. The third number denotes the steps between
@@ -202,7 +202,7 @@ each number. Therefore the output should be:
     [3,5,7,9,11]
 
 <h5> 16. Challenging. Write a loop that sums the integers from zero to thirty that are multiples
-of three: 3, 6, etc.
+of three: 3, 6, etc.</h5>
 
     Easy way without loop
 
@@ -225,7 +225,7 @@ of three: 3, 6, etc.
 
     165
     
-<h5> 7. Define a function pocket_change() that takes four integers as inputs (numbers of pennies, nickels, dimes, and quarters in your pocket) and returns a floating point number (their dollar value). Run your program with the input (1, 2, 3, 4). Bonus (optional): Report the value with a dollar sign.</h5>
+<h5> 17. Define a function pocket_change() that takes four integers as inputs (numbers of pennies, nickels, dimes, and quarters in your pocket) and returns a floating point number (their dollar value). Run your program with the input (1, 2, 3, 4). Bonus (optional): Report the value with a dollar sign.</h5>
 
     Easy Method
     
