@@ -260,6 +260,7 @@ This code labels a list as "old_list" then creates a second list called new_list
 
 <h5> 20.Consider the Python object
     z = {1: 'one', 2: 'two', 3: 'three'}
+    
 ```(a) What kind of object is z? What is its length?```
 
 ```(b) Which components are keys? Which are values?```
