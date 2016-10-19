@@ -258,20 +258,24 @@ of three: 3, 6, etc.</h5>
 This code labels a list as "old_list" then creates a second list called new_list. new_list is defined as being composed of items from  old_list in which character "0" of each individual str "x" in the list is added if it is not 6. 
 
 
-<h5> 20.Consider the Python object
+<h5> 20.Consider the Python object</h5>
     z = {1: 'one', 2: 'two', 3: 'three'}
     
 ```(a) What kind of object is z? What is its length?``` Dict or Dictionary
 
 ```(b) Which components are keys? Which are values?``` Keys: (1, 2, 3). Values: (one, two, three)
 
-```(c) How would I get the value associated with the key 2?```
+```(c) How would I get the value associated with the key 2?```  z[2]
 
-```(d) Use Spyder’s help facilities to figure out what z.keys() does. Ditto z.values(). Try them to verify.```
+```(d) Use Spyder’s help facilities to figure out what z.keys() does.``` z.keys() queries and displays the keys of dictionary z.
 
-```(e) What does list(z.keys()) do?```
+```Ditto z.values(). Try them to verify.``` z.values() queries and displays the values of dictionary z.
 
-```(f) What does list(z.values()) do?```
+```(e) What does list(z.keys()) do?``` It displays the dictionary keys as a list
 
-```(g) What does list(z) do?```
+```(f) What does list(z.values()) do?``` It displays the dictionary values as a list
+
+```(g) What does list(z) do?``` It displays JUST the keys of dictionary z
     
+<h5>21. Approximately how long did this assignment take you?</h5>
+1.5 Hours
