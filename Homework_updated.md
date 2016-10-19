@@ -261,10 +261,16 @@ This code labels a list as "old_list" then creates a second list called new_list
 <h5> 20.Consider the Python object
     z = {1: 'one', 2: 'two', 3: 'three'}
 ```(a) What kind of object is z? What is its length?```
+
 ```(b) Which components are keys? Which are values?```
+
 ```(c) How would I get the value associated with the key 2?```
+
 ```(d) Use Spyder’s help facilities to figure out what z.keys() does. Ditto z.values(). Try them to verify.```
+
 ```(e) What does list(z.keys()) do?```
+
 ```(f) What does list(z.values()) do?```
+
 ```(g) What does list(z) do?```
     
