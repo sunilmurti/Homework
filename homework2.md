@@ -133,3 +133,5 @@ weo['BRA'] is a series.
     4  15.46  35.60  51.41  2012.0
     5  15.98  36.79  52.94  2013.0
     6  16.10  37.39  54.60  2014.0
+
+<h5>n. What are weo’s row and column labels?</h5>
