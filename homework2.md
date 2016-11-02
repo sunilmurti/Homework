@@ -236,6 +236,6 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     In[96]: weo_year.drop(['Japan', 'United States'], axis=1).plot()
     Out[96]: <matplotlib.axes._subplots.AxesSubplot at 0x11eb20898>
 
-
+![alt text] (https://cloud.githubusercontent.com/assets/4370818/19937313/1ce7c3ee-a0f7-11e6-94a7-e6bf421bec97.png "GDP Plot")
 
     
