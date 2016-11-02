@@ -54,6 +54,25 @@ The data that falls under the country code are floats. The data within the year 
 <h5>g. Challenging. What are each of these expressions? What type?</h5>
 
      weo['Year'] ## Pulls the Year column as a Series
-     weo[['Year']] ##Pulls the Year column as a DataFrame
-     weo[[3]] ##Pulls the Year column as a Dataframe. The 3 refers to the column number it is, starting with 0.
+     weo[['Year']] ## Pulls the Year column as a DataFrame
+     weo[[3]] ## Pulls the Year column as a Dataframe. The 3 refers to the column number it is, starting with 0.
+     
+<h5> Challenging. Find and apply a method to convert weo[’Year’] to type float. Hint: The method begins with the letter a.</h5>
 
+    In [13]:
+    weo['Year'] = weo['Year'].astype('float')
+
+    In [14]:
+    weo['Year']
+    
+    Out[14]: 
+    0    2008.0
+    1    2009.0
+    2    2010.0
+    3    2011.0
+    4    2012.0
+    5    2013.0
+    6    2014.0
+    Name: Year, dtype: float64
+
+<h5> (i) Describe the result of the statement t = weo.tail(3). What kind of object is t? What does it look like? </h5>
