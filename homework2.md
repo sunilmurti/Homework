@@ -57,7 +57,7 @@ The data that falls under the country code are floats. The data within the year 
      weo[['Year']] ## Pulls the Year column as a DataFrame
      weo[[3]] ## Pulls the Year column as a Dataframe. The 3 refers to the column number it is, starting with 0.
      
-<h5> Challenging. Find and apply a method to convert weo[’Year’] to type float. Hint: The method begins with the letter a.</h5>
+<h5>h. Challenging. Find and apply a method to convert weo[’Year’] to type float. Hint: The method begins with the letter a.</h5>
 
     In [13]:
     weo['Year'] = weo['Year'].astype('float')
@@ -76,3 +76,5 @@ The data that falls under the country code are floats. The data within the year 
     Name: Year, dtype: float64
 
 <h5> (i) Describe the result of the statement t = weo.tail(3). What kind of object is t? What does it look like? </h5>
+
+
