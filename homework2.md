@@ -103,4 +103,16 @@ weo['BRA'] is a series.
     
 <h5>l. Create a new variable equal to the ratio of Brazil’s GDP per capita to Japan’s and add it to the DataFrame.</h5>
 
+    In[23]: weo['GDP_BRA/JPN'] = weo['BRA']/weo['JPN']
 
+    In[24]: weo
+    
+    Out[24]: 
+        BRA    JPN    USA    Year     GDP_BRA/JPN
+    0  13.37  33.43  48.30  2008.0     0.399940
+    1  13.30  31.83  46.91  2009.0     0.417845
+    2  14.34  33.71  48.31  2010.0     0.425393
+    3  15.07  34.29  49.72  2011.0     0.439487
+    4  15.46  35.60  51.41  2012.0     0.434270
+    5  15.98  36.79  52.94  2013.0     0.434357
+    6  16.10  37.39  54.60  2014.0     0.430596
