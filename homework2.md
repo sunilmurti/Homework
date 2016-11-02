@@ -75,6 +75,19 @@ The data that falls under the country code are floats. The data within the year 
     6    2014.0
     Name: Year, dtype: float64
 
-<h5> (i) Describe the result of the statement t = weo.tail(3). What kind of object is t? What does it look like? </h5>
+<h5>i. Describe the result of the statement t = weo.tail(3). What kind of object is t? What does it look like? </h5>
 
+The statement created a new DataFrame using the LAST 3 or 3 rows at the tail of the table. In this case, Rows 4, 5, 6. 
+t is a data frame. It looks like a shortened version or a subsect of dataframe weo.
 
+<h5>j. How would you create a new dataframe that consists of the first 4 rows of weo?</h5>
+
+    In[18]:
+    weo.head(4)
+    
+    Out[18]: 
+    BRA    JPN    USA    Year
+    0  13.37  33.43  48.30  2008.0
+    1  13.30  31.83  46.91  2009.0
+    2  14.34  33.71  48.31  2010.0
+    3  15.07  34.29  49.72  2011.0
