@@ -205,3 +205,7 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     2012.0   15.46  35.60          51.41
     2013.0   15.98  36.79          52.94
     2014.0   16.10  37.39          54.60
+    
+<h5>t. Plot the data by applying a plot method to weo.</h5>
+
+
