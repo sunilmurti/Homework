@@ -287,8 +287,8 @@ All the variables are objects.
 <h5>d.Change the variable names to something shorter.</h5>
 
     ep.columns = ["Time", "Why This Class", "What Program", 
-    "Programming Exp.", "Prob. and Statistis Exp.",     "Major/Concentration", 
-    "Career Path", "Social Media", "Interests", "Special Topics"]
+                  "Programming Exp.", "Prob. and Statistis Exp.", "Major/Concentration", 
+                  "Career Path", "Social Media", "Interests", "Special Topics"]
     
     In[107]:
     ep.dtypes
