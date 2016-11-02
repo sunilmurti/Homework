@@ -28,7 +28,7 @@ WEO has 4 columns and 7 rows.
     weo
     
     Out[3]: 
-     BRA    JPN    USA  Year
+         BRA    JPN    USA   Year
      0  13.37  33.43  48.30  2008
      1  13.30  31.83  46.91  2009
      2  14.34  33.71  48.31  2010
@@ -86,7 +86,7 @@ t is a data frame. It looks like a shortened version or a subsect of dataframe w
     weo.head(4)
     
     Out[18]: 
-    BRA    JPN    USA    Year
+        BRA    JPN    USA    Year
     0  13.37  33.43  48.30  2008.0
     1  13.30  31.83  46.91  2009.0
     2  14.34  33.71  48.31  2010.0
