@@ -213,3 +213,5 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     
 ![alt text](https://cloud.githubusercontent.com/assets/4370818/19934604/99e9e9f8-a0ed-11e6-992c-6706d7f3089e.png "GDP Plot")
 
+<h5>u. Challenging. Change the colors of the lines to green (Brazil), red (Japan), and blue (US).</h5>
+
