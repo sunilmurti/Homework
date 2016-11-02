@@ -157,7 +157,7 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     2013.0  15.98  36.79  52.94
     2014.0  16.10  37.39  54.60
     
-<h5> Change the names of the other variables to Brazil, Japan, and United States.</h5>
+<h5>p. Change the names of the other variables to Brazil, Japan, and United States.</h5>
 
 
     In [39]:weo_year.columns = ['Brazil', 'Japan', 'United States']
@@ -173,4 +173,7 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     2011.0   15.07  34.29          49.72
     2012.0   15.46  35.60          51.41
     2013.0   15.98  36.79          52.94
-2014.0   16.10  37.39          54.60
+    2014.0   16.10  37.39          54.60
+
+<h5>q. Export the dataframe to an Excel spreadsheet. </h5>
+
