@@ -101,6 +101,6 @@ weo['BRA'] is a series.
     
     Out[22]: pandas.core.series.Series
     
-<h5>Create a new variable equal to the ratio of Brazil’s GDP per capita to Japan’s and add it to the DataFrame.</h5>
+<h5>l. Create a new variable equal to the ratio of Brazil’s GDP per capita to Japan’s and add it to the DataFrame.</h5>
 
 
