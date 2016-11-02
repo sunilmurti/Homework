@@ -123,6 +123,7 @@ weo['BRA'] is a series.
     In[29]:weo = weo.drop(['GDP_BRA/JPN'], axis=1)
 
     In[30]:weo
+    
     Out[30]: 
         BRA    JPN    USA    Year
     0  13.37  33.43  48.30  2008.0
