@@ -308,8 +308,47 @@ All the variables are objects.
 
 <h5>e.Challenging. Describe what this code does:</h5>
 
+It starts with DataFrame ep. It lists all of the responses from column 1 (Why Take this Class?) of ep, and the corresponding count or number of times participants of the poll gave that response. For example, 60 students exactly responded that they took this course "To help with my career".
+
     ep[list(ep)[1]].value_counts()
+
+    Out[108]: 
+    To help with my career                               60
+    I heard it was fun                                   14
+    I lost my mind for a minute                           5
+    I code/build websites in my spare time as a hobby     1
+    Recommended by a professor.                           1
+    I like a challenge                                    1
+    i am living in Santiago de Chile                      1
+    To finish my major                                    1
+    Wanted to try something completely different          1
+    Name: Why This Class, dtype: int64
+
+
+<h5>3.Consider the 538 college majors data at url:</h5>
     
+    url1 = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/'
+    url2 = 'college-majors/recent-grads.csv'
+    url = url1 + url2
+    
+<h5>a.Create a dataframe df538 from the csv file at url using read_csv(). What are its dimensions? </h5>
+
+There are [173 rows x 21 columns]
+
+    url1 = 'https://raw.githubusercontent.com/fivethirtyeight/data/master/'
+    url2 = 'college-majors/recent-grads.csv'
+    url = url1 + url2
+
+    df538 = pd.read_csv(url)
+    
+ <h5>b.What argument/parameter would you use to read only the first ten lines of the file?</h5>
+ 
+     df538.head(10)
+    
+ <h5>c.Extract the variables numbered [2, 4, 15, 16, 17]. What are the names of these variables? What do they represent?</h5>
+ 
+ 
+ 
 
 
 
