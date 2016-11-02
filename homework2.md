@@ -135,3 +135,6 @@ weo['BRA'] is a series.
     6  16.10  37.39  54.60  2014.0
 
 <h5>n. What are weo’s row and column labels?</h5>
+
+Column Labels = BRA, JPN, USA, Year
+Row Labels = 0, 1, 2, 3, 4, 5, 6
