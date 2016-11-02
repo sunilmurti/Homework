@@ -176,4 +176,5 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     2014.0   16.10  37.39          54.60
 
 <h5>q. Export the dataframe to an Excel spreadsheet. </h5>
-
+    
+    weo_year.to_excel('weo.xls')
