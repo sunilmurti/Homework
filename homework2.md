@@ -285,6 +285,25 @@ All the variables are objects.
     dtype: object
 
 <h5>d.Change the variable names to something shorter.</h5>
+
+    ep.columns = ["Time", "Why This Class", "What Program", "Programming Exp.", "Prob. and Statistis Exp.",     "Major/Concentration", "Career Path", "Social Media", "Interests", "Special Topics"]
+    
+    In[107]:
+    ep.dtypes
+    
+    Out[107]: 
+    Time                        object
+    Why This Class              object
+    What Program                object
+    Programming Exp.            object
+    Prob. and Statistis Exp.    object  
+    Major/Concentration         object
+    Career Path                 object
+    Social Media                object
+    Interests                   object
+    Special Topics              object
+    dtype: object
+
 <h5>e.Challenging. Describe what this code does:</h5>
 
     ep[list(ep)[1]].value_counts()
