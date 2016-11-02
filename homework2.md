@@ -91,3 +91,12 @@ t is a data frame. It looks like a shortened version or a subsect of dataframe w
     1  13.30  31.83  46.91  2009.0
     2  14.34  33.71  48.31  2010.0
     3  15.07  34.29  49.72  2011.0
+
+<h5>k. What type of object is weo[’BRA’]?</h5>
+
+weo['BRA'] is a series.
+
+    In[22]:
+    type(weo['BRA'])
+    
+    Out[22]: pandas.core.series.Series
