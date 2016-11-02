@@ -208,4 +208,8 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     
 <h5>t. Plot the data by applying a plot method to weo.</h5>
 
+    In[65]: weo_year.plot()
+    Out[65]: <matplotlib.axes._subplots.AxesSubplot at 0x11c4399b0>
+    
+    ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
