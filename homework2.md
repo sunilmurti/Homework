@@ -239,5 +239,52 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
 ![alt text] (https://cloud.githubusercontent.com/assets/4370818/19937313/1ce7c3ee-a0f7-11e6-94a7-e6bf421bec97.png "GDP Plot")
 
     
-<h5>Use read_csv() to read the responses of our class entry poll from</h5>
-    https://raw.githubusercontent.com/NYUDataBootcamp/Materials/master/Data/entry poll fall16.csv
+<h5>2.Use read_csv() to read the responses of our class entry poll from</h5>
+    https://raw.githubusercontent.com/NYUDataBootcamp/Materials/master/Data/entry_poll_fall16.csv
+    
+    
+<h5>a.Read the file and assign it to the variable ep.</h5>
+
+    url1  = 'https://raw.githubusercontent.com/NYUDataBootcamp/Materials/'
+    url2 = 'master/Data/entry_poll_fall16.csv'
+    url = url1 + url2
+
+    ep = pd.read_csv(url)
+
+
+<h5>b.Describe its contents. What are the variables? The responses?</h5>
+
+The CSV includes the questions and responses to the Entry Poll we took before the first day of class.
+
+
+The Variables - are the various questions posed in the Google Form.
+
+
+The Responses - are the multiple choice and free type answers my classmates and I responded with.
+
+
+<h5>c.What data types are the variables?</h5>
+    
+    In[103]: ep.dtypes
+    
+    Out[103]: 
+    TimeStamp                                                                                              object
+    Why have you enrolled in this course?                                                                  object
+    What program are you enrolled in?                                                                      object
+    How much programming experience have you had?                                                          object
+    How much experience with probability and statistics have you had?                                      object
+    What is your expected major or concentration?                                                          object
+    What career path most interests you?                                                                   object
+    Do you use social media for information purposes?  Check all that apply.                               object
+    What kinds of data most interest you?  List any that cross your mind.                                  object
+    If we have time -- and we may not -- what special topics would interest you?  Check all that apply.    object
+    dtype: object
+
+<h5>d.Change the variable names to something shorter.</h5>
+<h5>e.Challenging. Describe what this code does:</h5>
+
+    ep[list(ep)[1]].value_counts()
+    
+
+
+
