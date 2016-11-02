@@ -381,7 +381,41 @@ There are [173 rows x 21 columns]
                                                       ...     ...    ...     ...
 [173 rows x 4 columns]
 
-<h5>e.
+<h5>e.Use the sort_values() method to sort the data by Total.</h5>
 
+    df538.sort(columns="Total")
+    
+<h5>f. What code would you use to extract the ten majors with the greatest number of people?</h5>
 
+    In[142]: df538.sort(columns="Total").tail(10)
 
+    Out[142]: 
+                                             Total  Median  P25th  P75th
+    Major                                                               
+    POLITICAL SCIENCE AND GOVERNMENT        182621   38000  28000  50000
+    ENGLISH LANGUAGE AND LITERATURE         194673   32000  23000  41000
+    ACCOUNTING                              198633   45000  34000  56000
+    MARKETING AND MARKETING RESEARCH        205211   38000  30000  50000
+    NURSING                                 209394   48000  39000  58000
+    COMMUNICATIONS                          213996   35000  27000  45000
+    GENERAL BUSINESS                        234590   40000  30000  55000
+    BIOLOGY                                 280709   33400  24000  45000
+    BUSINESS MANAGEMENT AND ADMINISTRATION  329927   38000  29000  50000
+    PSYCHOLOGY                              393735   31500  24000  41000
+    
+    
+<h5>g. Challenging. Construct horizontal bar charts of the top ten majors sorted, first, by median salary and, second, by the salary of the 25th percentile. In each case plot just the variable you sorted on.</h5>
+ 
+     mediangraph = df538.sort(columns="Median").tail(10)
+     mediangraph.drop(['Total', 'P25th', 'P75th'], axis=1).plot.barh()
+     
+![alt text] (https://cloud.githubusercontent.com/assets/4370818/19941716/a8622b20-a107-11e6-92e5-d8a26ac77fe0.png "GDP Plot")
+     
+     p25graph = df538.sort(columns="P25th").tail(10)
+     p25graph.drop(['Total', 'Median', 'P75th'], axis=1).plot.barh()
+
+![alt text] (https://cloud.githubusercontent.com/assets/4370818/19941729/b4408680-a107-11e6-95f3-96b92e108ed9.png "GDP Plot")
+
+<h5> 4. Approximately how long did this assignment take you?</h5>
+
+1.25 Hours
