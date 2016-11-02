@@ -346,8 +346,17 @@ There are [173 rows x 21 columns]
      df538.head(10)
     
  <h5>c.Extract the variables numbered [2, 4, 15, 16, 17]. What are the names of these variables? What do they represent?</h5>
-     collist = [2, 4, 15, 16, 17]
-     df538_v2 = df538[collist]
+ 
+     In[125]: collist = [2, 4, 15, 16, 17]
+     In[126]: df538_v2 = df538[collist]
+     In[126]: df538_v2
+     
+     Major - What Major they are purusing/pursed
+     Total - Total number of people with major
+     Median - Median earnings of full-time, year-round workers
+     P25th - 25th percentile of earnings
+     P75th - 75th percentile of earnings
+     
  
 
 
