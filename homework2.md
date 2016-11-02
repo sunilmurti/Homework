@@ -265,19 +265,23 @@ The Responses - are the multiple choice and free type answers my classmates and 
 
 <h5>c.What data types are the variables?</h5>
     
+All the variables are objects.
+    
+    
     In[103]: ep.dtypes
     
     Out[103]: 
-    TimeStamp                                                                                              object
-    Why have you enrolled in this course?                                                                  object
-    What program are you enrolled in?                                                                      object
-    How much programming experience have you had?                                                          object
-    How much experience with probability and statistics have you had?                                      object
-    What is your expected major or concentration?                                                          object
-    What career path most interests you?                                                                   object
-    Do you use social media for information purposes?  Check all that apply.                               object
-    What kinds of data most interest you?  List any that cross your mind.                                  object
-    If we have time -- and we may not -- what special topics would interest you?  Check all that apply.    object
+    TimeStamp   object
+    Why have you enrolled in this course?  object
+    What program are you enrolled in?      object
+    How much programming experience have you had?  object
+    How much experience with probability and statistics have you had?  object
+    What is your expected major or concentration?        object
+    What career path most interests you?  object
+    Do you use social media for information purposes?  Check all that apply.    object
+    What kinds of data most interest you?  List any that cross your mind.   object
+    If we have time -- and we may not -- what special topics would interest you?  
+    Check all that apply.  object
     dtype: object
 
 <h5>d.Change the variable names to something shorter.</h5>
