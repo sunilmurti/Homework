@@ -348,8 +348,8 @@ There are [173 rows x 21 columns]
  <h5>c.Extract the variables numbered [2, 4, 15, 16, 17]. What are the names of these variables? What do they represent?</h5>
  
      In[125]: collist = [2, 4, 15, 16, 17]
-     In[126]: df538_v2 = df538[collist]
-     In[126]: df538_v2
+     In[126]: df538 = df538[collist]
+     In[126]: df538
      
      Major - What Major they are purusing/pursed
      Total - Total number of people with major
@@ -358,6 +358,30 @@ There are [173 rows x 21 columns]
      P75th - 75th percentile of earnings
      
  
+<h5>d. Set the index equal to Major..</h5>
+
+    In[136]: df538 = df538.set_index('Major')
+
+    In[137]: df538
+    Out[137]: 
+                                                    Total  Median  P25th   P75th
+    Major                                                                       
+    PETROLEUM ENGINEERING                            2339  110000  95000  125000
+    MINING AND MINERAL ENGINEERING                    756   75000  55000   90000
+    METALLURGICAL ENGINEERING                         856   73000  50000  105000
+    NAVAL ARCHITECTURE AND MARINE ENGINEERING        1258   70000  43000   80000
+    CHEMICAL ENGINEERING                            32260   65000  50000   75000
+    NUCLEAR ENGINEERING                              2573   65000  50000  102000
+    ACTUARIAL SCIENCE                                3777   62000  53000   72000
+    ASTRONOMY AND ASTROPHYSICS                       1792   62000  31500  109000
+    MECHANICAL ENGINEERING                          91227   60000  48000   70000
+    ELECTRICAL ENGINEERING                          81527   60000  45000   72000
+    COMPUTER ENGINEERING                            41542   60000  45000   75000
+    AEROSPACE ENGINEERING                           15058   60000  42000   70000
+                                                      ...     ...    ...     ...
+[173 rows x 4 columns]
+
+<h5>e.
 
 
 
