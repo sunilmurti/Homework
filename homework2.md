@@ -37,4 +37,22 @@ WEO has 4 columns and 7 rows.
      5  15.98  36.79  52.94  2013
      6  16.10  37.39  54.60  2014
      
-<h5>What dtypes are the variables/columns? What does this mean?</h5>
+<h5>f.What dtypes are the variables/columns? What does this mean?</h5>
+
+The data that falls under the country code are floats. The data within the year column are integers. This means that python/pandas is classifying each of the variables within a dataframe based on their column and content.
+
+    In[4]:
+    weo.dtypes
+    
+    Out[4]: 
+    BRA     float64
+    JPN     float64
+    USA     float64
+    Year      int64
+    dtype: object
+    
+<h5>Challenging. What are each of these expressions? What type?</h5>
+
+     weo['Year']
+     weo[['Year']]
+     weo[[3]]
