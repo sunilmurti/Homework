@@ -226,6 +226,11 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
 ![alt text](https://cloud.githubusercontent.com/assets/4370818/19936676/b2b034c2-a0f4-11e6-9c3f-1ecb36f0b372.png "GDP Plot")
 
 
+    In[83]: weo_year.plot(color=["green", "red", "blue"], logy=True)
+    Out[83]: <matplotlib.axes._subplots.AxesSubplot at 0x11d5bb7f0>
+![alt text](https://cloud.githubusercontent.com/assets/4370818/19936849/71990652-a0f5-11e6-8eaf-ac5f55e32e1a.png "GDP Plot")
+
+
 <h5>w. Plot Brazil on its own.</h5>
 
 
