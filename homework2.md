@@ -141,3 +141,36 @@ Column Labels = BRA, JPN, USA, Year
 Row Labels = 0, 1, 2, 3, 4, 5, 6
 
 <h5> o. Set the index equal to the Year variable. </h5>
+
+    In [38]: weo_year = weo.set_index('Year')
+
+    In [38]: weo_year
+    
+    Out[38]: 
+          BRA    JPN    USA
+    Year                       
+    2008.0  13.37  33.43  48.30
+    2009.0  13.30  31.83  46.91
+    2010.0  14.34  33.71  48.31
+    2011.0  15.07  34.29  49.72
+    2012.0  15.46  35.60  51.41
+    2013.0  15.98  36.79  52.94
+    2014.0  16.10  37.39  54.60
+    
+<h5> Change the names of the other variables to Brazil, Japan, and United States.</h5>
+
+
+    In [39]:weo_year.columns = ['Brazil', 'Japan', 'United States']
+
+    In [40]: weo_year
+    
+    Out[40]: 
+            Brazil  Japan      United States
+    Year                                
+    2008.0   13.37  33.43          48.30
+    2009.0   13.30  31.83          46.91
+    2010.0   14.34  33.71          48.31
+    2011.0   15.07  34.29          49.72
+    2012.0   15.46  35.60          51.41
+    2013.0   15.98  36.79          52.94
+2014.0   16.10  37.39          54.60
