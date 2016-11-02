@@ -346,8 +346,8 @@ There are [173 rows x 21 columns]
      df538.head(10)
     
  <h5>c.Extract the variables numbered [2, 4, 15, 16, 17]. What are the names of these variables? What do they represent?</h5>
- 
- 
+     collist = [2, 4, 15, 16, 17]
+     df538_v2 = df538[collist]
  
 
 
