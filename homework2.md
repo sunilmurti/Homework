@@ -232,6 +232,9 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
 
 
 <h5>w. Plot Brazil on its own.</h5>
+    
+    In[96]: weo_year.drop(['Japan', 'United States'], axis=1).plot()
+    Out[96]: <matplotlib.axes._subplots.AxesSubplot at 0x11eb20898>
 
 
 
