@@ -218,3 +218,12 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     In[74]: weo_year.plot(color=["green", "red", "blue"])
     Out[74]: <matplotlib.axes._subplots.AxesSubplot at 0x11d0a5dd8>
 ![alt text](https://cloud.githubusercontent.com/assets/4370818/19936415/b0be5708-a0f3-11e6-9334-104e77fcc972.png "GDP Plot")
+
+<h5>v. Challenging. Do the same plot with a log scale. Hint: Read the documentation for the plot method.</h5>
+
+    In[76]: weo_year.plot(logx=True)
+    Out[76]: <matplotlib.axes._subplots.AxesSubplot at 0x11d2b6470>
+![alt text](https://cloud.githubusercontent.com/assets/4370818/19936415/b0be5708-a0f3-11e6-9334-104e77fcc972.png "GDP Plot")
+
+    
+    
