@@ -225,5 +225,9 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     Out[77]: <matplotlib.axes._subplots.AxesSubplot at 0x11d40f438>
 ![alt text](https://cloud.githubusercontent.com/assets/4370818/19936676/b2b034c2-a0f4-11e6-9c3f-1ecb36f0b372.png "GDP Plot")
 
-    
+
+<h5>w. Plot Brazil on its own.</h5>
+
+
+
     
