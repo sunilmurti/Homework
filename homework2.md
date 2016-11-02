@@ -51,8 +51,9 @@ The data that falls under the country code are floats. The data within the year 
     Year      int64
     dtype: object
     
-<h5>Challenging. What are each of these expressions? What type?</h5>
+<h5>g. Challenging. What are each of these expressions? What type?</h5>
 
-     weo['Year']
-     weo[['Year']]
-     weo[[3]]
+     weo['Year'] ## Pulls the Year column as a Series
+     weo[['Year']] ##Pulls the Year column as a DataFrame
+     weo[[3]] ##Pulls the Year column as a Dataframe. The 3 refers to the column number it is, starting with 0.
+
