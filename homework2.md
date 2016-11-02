@@ -139,3 +139,5 @@ weo['BRA'] is a series.
 Column Labels = BRA, JPN, USA, Year
 
 Row Labels = 0, 1, 2, 3, 4, 5, 6
+
+<h5> o. Set the index equal to the Year variable. </h5>
