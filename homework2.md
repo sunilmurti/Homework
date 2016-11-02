@@ -193,18 +193,17 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
 <h5>s. Challenging. How would you compute means across countries for each year? </h5>
     
     In[59]:
-    weo_year.mean(level="Year")
+    weo_year.mean(axis=1)
     
     Out[59]: 
-            Brazil  Japan      United States
-    Year                                
-    2008.0   13.37  33.43          48.30
-    2009.0   13.30  31.83          46.91
-    2010.0   14.34  33.71          48.31
-    2011.0   15.07  34.29          49.72
-    2012.0   15.46  35.60          51.41
-    2013.0   15.98  36.79          52.94
-    2014.0   16.10  37.39          54.60
+    2008.0    31.700000
+    2009.0    30.680000
+    2010.0    32.120000
+    2011.0    33.026667
+    2012.0    34.156667
+    2013.0    35.236667
+    2014.0    36.030000
+    dtype: float64
     
 <h5>t. Plot the data by applying a plot method to weo.</h5>
 
