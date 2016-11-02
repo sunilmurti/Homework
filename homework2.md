@@ -211,5 +211,5 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
     In[65]: weo_year.plot()
     Out[65]: <matplotlib.axes._subplots.AxesSubplot at 0x11c4399b0>
     
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://cloud.githubusercontent.com/assets/4370818/19934604/99e9e9f8-a0ed-11e6-992c-6706d7f3089e.png "GDP Plot")
 
