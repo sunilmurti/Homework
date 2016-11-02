@@ -239,3 +239,5 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
 ![alt text] (https://cloud.githubusercontent.com/assets/4370818/19937313/1ce7c3ee-a0f7-11e6-94a7-e6bf421bec97.png "GDP Plot")
 
     
+<h5>Use read_csv() to read the responses of our class entry poll from</h5>
+    https://raw.githubusercontent.com/NYUDataBootcamp/Materials/master/Data/entry poll fall16.csv
