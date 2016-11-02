@@ -24,6 +24,7 @@ weo is a DataFrame— that was built from dictionary "data".
 <h5>e. How many rows does it have? Columns? </h5>
 WEO has 4 columns and 7 rows.
 
+
     In[3]:
     weo
     
