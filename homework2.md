@@ -178,3 +178,7 @@ Row Labels = 0, 1, 2, 3, 4, 5, 6
 <h5>q. Export the dataframe to an Excel spreadsheet. </h5>
     
     weo_year.to_excel('weo.xls')
+    
+
+<h5>r. What method would you use to compute the mean for each country? What are the means?</h5>
+
